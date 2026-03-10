@@ -2,6 +2,8 @@
 
 A small web app that generates Naruto-inspired anime ninja images using a fine-tuned model on [Replicate](https://replicate.com). Enter a prompt; the app returns an image via a server-side API route. The UI is dark, cinematic, and ninja-themed.
 
+**Live demo:** [https://chakrax-generator.vercel.app/](https://chakrax-generator.vercel.app/)
+
 ## Features
 
 - **Prompt-based generation** — Describe a scene; the model returns a single image.
