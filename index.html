@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHAKRAX — Naruto Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main class="panel">
+    <header class="panel-header">
+      <h1>CHAKRAX</h1>
+      <p class="subtitle">Seal the vision. Summon the image.</p>
+    </header>
+
+    <section class="panel-section" aria-labelledby="prompt-label">
+      <label id="prompt-label" for="prompt" class="sr-only">Prompt</label>
+      <textarea id="prompt" name="prompt" rows="3" placeholder="Describe your scene…"></textarea>
+      <div class="chips" id="chips" aria-label="Example prompts">
+        <button type="button" class="chip" data-prompt="a young shinobi warrior in CHAKRAX style, anime illustration, dramatic pose, detailed clothing, village background">Village shinobi</button>
+        <button type="button" class="chip" data-prompt="ninja in CHAKRAX style, chakra glow, night scene, cherry blossoms">Chakra night</button>
+        <button type="button" class="chip" data-prompt="anime portrait in CHAKRAX style, fierce expression, headband, forest">Portrait</button>
+      </div>
+      <button type="button" id="generate" class="btn-generate">Generate</button>
+    </section>
+
+    <section class="panel-section result-section" aria-labelledby="result-label">
+      <span id="result-label" class="sr-only">Generated image</span>
+      <div id="result" class="result" aria-live="polite">
+        <div id="result-placeholder" class="result-placeholder">Your image will appear here</div>
+        <div id="result-loading" class="result-loading" hidden>Generating…</div>
+        <div id="result-error" class="result-error" hidden></div>
+        <img id="result-image" class="result-image" alt="" hidden>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
