@@ -8,6 +8,7 @@ A small web app that generates Naruto-inspired anime ninja images using a fine-t
 - **Example prompt chips** — One-click prompts to try the style.
 - **Server-side API** — The Replicate token lives in environment variables and is never exposed to the client.
 - **CLI backup script** — Optional Node script to generate one image and save it as `output.png`.
+- **Anime-inspired UI** — Custom kunai cursor, chakra-style cursor spark trail (desktop), and falling cherry blossom petals and whole flowers for a ninja-themed atmosphere.
 
 ## Tech stack
 
