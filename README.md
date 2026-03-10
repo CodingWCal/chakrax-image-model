@@ -69,7 +69,7 @@ Add this environment variable before deploying:
 
 `REPLICATE_API_TOKEN`
 
-You can deploy either through a GitHub repository connection or with the Vercel CLI.
+You can deploy either through a GitHub repository connection or with the Vercel CLI. Pushing to `main` triggers a new production build.
 
 ## Screenshots
 
